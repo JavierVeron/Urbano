@@ -20,23 +20,23 @@ Parámetros: value = [string]<br>
 Método: GET<br>
 Descripción: Busca a todos los Clientes por Nombre, Apellido o Email.<br><br>
 
-- URL: http://127.0.0.1:8000/api/clientes/filtrar/{id}<br><br>
+- URL: http://127.0.0.1:8000/api/clientes/filtrar/{id}<br>
 Parámetros: id = [integer]<br>
 Método: GET<br>
 Descripción: Filtra los Clientes por un ID de Grupo de Cliente.<br><br>
 
-- URL: http://127.0.0.1:8000/api/cliente/{id}<br><br>
+- URL: http://127.0.0.1:8000/api/cliente/{id}<br>
 Parámetros: id = [integer]<br>
 Método: GET<br>
 Descripción: Busca un Cliente dado su número de ID.<br><br>
 
-- URL: http://127.0.0.1:8000/api/cliente<br><br>
+- URL: http://127.0.0.1:8000/api/cliente<br>
 Parámetros: [json]<br>
 Método: POST<br>
 Descripción: Agrega un nuevo Cliente a la tabla 'clientes'.<br>
 Ejemplo: {"nombre":"Javier", "apellido":"Verone", "email":"javier_v81@hotmail.com", "grupo_cliente_id":"3"}<br><br>
 
-- URL: http://127.0.0.1:8000/api/cliente/{id}<br><br>
+- URL: http://127.0.0.1:8000/api/cliente/{id}<br>
 Parámetros: id = [integer] / [json]<br>
 Método: PUT<br>
 Descripción: Modifica un Cliente de la tabla 'clientes' dado su número de ID.<br>
@@ -58,18 +58,18 @@ Parámetros: value = [string]<br>
 Método: GET<br>
 Descripción: Busca a todos los Grupo de Clientes por Nombre.<br><br>
 
-- URL: http://127.0.0.1:8000/api/grupocliente/{id}<br><br>
+- URL: http://127.0.0.1:8000/api/grupocliente/{id}<br>
 Parámetros: id = [integer]<br>
 Método: GET<br>
 Descripción: Busca un Cliente dado su número de ID.<br><br>
 
-- URL: http://127.0.0.1:8000/api/grupocliente<br><br>
+- URL: http://127.0.0.1:8000/api/grupocliente<br>
 Parámetros: [json]<br>
 Método: POST<br>
 Descripción: Agrega un nuevo contacto a la tabla 'grupo_clientes'.<br>
 Ejemplo: {"nombre":"Javier"}<br><br>
 
-- URL: http://127.0.0.1:8000/api/grupocliente/{id}<br><br>
+- URL: http://127.0.0.1:8000/api/grupocliente/{id}<br>
 Parámetros: id = [integer] / [json]<br>
 Método: PUT<br>
 Descripción: Modifica un Grupo de Cliente de la tabla 'grupo_clientes' dado su número de ID.<br>
